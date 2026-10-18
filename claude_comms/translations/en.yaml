@@ -1,0 +1,13 @@
+configuration:
+  mcp_token:
+    name: MCP-token
+    description: Geheime sleutel van minimaal 32 tekens. Komt in het adres dat Claude gebruikt (/mcp/<token>). Zonder token staat MCP uit.
+  retention_days:
+    name: Bewaartermijn (dagen)
+    description: Berichten ouder dan dit worden verwijderd.
+  poll_seconds:
+    name: Ophaalinterval (seconden)
+    description: Hoe vaak nieuwe berichten bij Signal worden opgehaald.
+  device_name:
+    name: Apparaatnaam
+    description: Naam onder Gekoppelde apparaten in Signal.

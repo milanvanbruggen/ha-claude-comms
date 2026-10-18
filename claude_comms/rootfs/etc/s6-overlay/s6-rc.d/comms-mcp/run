@@ -1,0 +1,3 @@
+#!/command/with-contenv sh
+mkdir -p /data/signal-cli
+exec /opt/venv/bin/python /opt/app/server.py
