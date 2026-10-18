@@ -1,5 +1,5 @@
 name: Claude Comms
-version: "0.1.0"
+version: "0.1.1"
 slug: claude_comms
 description: Alleen-lezen toegang tot je Signal-berichten voor Claude (MCP)
 url: https://github.com/milanvanbruggen/ha-claude-comms

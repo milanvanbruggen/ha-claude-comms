@@ -1,0 +1,3 @@
+#!/command/with-contenv sh
+# Same as upstream, but drop the per-request [GIN] access log lines (one per poll) from the add-on log.
+exec sh -c 'signal-cli-rest-api -signal-cli-config="${SIGNAL_CLI_CONFIG_DIR}" 2>&1 | grep --line-buffered -v "^\[GIN\]"'

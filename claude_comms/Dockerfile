@@ -19,7 +19,7 @@ RUN apt-get update \
     && mkdir -p /data
 
 COPY rootfs/ /
-RUN chmod 755 /etc/s6-overlay/s6-rc.d/comms-mcp/run
+RUN chmod 755 /etc/s6-overlay/s6-rc.d/comms-mcp/run /etc/s6-overlay/s6-rc.d/signal-api/run
 COPY app/ /opt/app/
 
 WORKDIR /opt/app
